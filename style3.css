@@ -1,0 +1,155 @@
+body{
+    margin: 0%;
+    background-color: white;
+    box-sizing: border-box;
+}
+.header{
+    height: 661px;
+    background-image: url(asset\ 1.jpeg);
+    background-size: 100% 110%;
+}
+#img1{
+    height: 600px;
+    width: 100%;
+}
+
+#logo1{
+    width: 150px;
+    height: 56px;
+    margin: 20px;
+}
+
+#text1{
+    color: #dfaade;
+    font-family:Arial, Helvetica, sans-serif;
+    float: right;
+    margin: 40px;
+    
+}
+#text2{
+    font-size: 40px;
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#063684;
+    text-align: center;
+    margin: 70px;
+    font-family: myFirstFont;
+
+}
+#text3{
+    font-size: 34px;
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#1f1f1f;
+    text-align: center;
+    margin: 70px;
+    font-family: myFirstFont;
+
+}
+
+.content1 h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: myFirstFont;
+
+}
+.content1 p{
+    font-size:  19px;
+    text-align:left;
+    font-family: myFirstFont;
+
+    
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("/static/Montserrat-Light.ttf");
+  }
+  
+
+.parent1{
+    display: flex;
+    
+    justify-content:space-evenly;
+    
+    
+}
+.parent2{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 200px;
+}
+#section1{
+    height: 295px;
+    width : 100%;
+    background-image: url(asset\ 5.jpeg);
+    background-position: center;
+
+}
+p{
+    line-height: 25px;
+    
+}
+#line{
+    margin: 200 0 200 0;
+}
+
+.parent3{
+
+    padding-left: 290px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align:left;
+    font-family: myFirstFont;
+    line-height: 25px;
+    letter-spacing: 1px;    
+}
+.parent4{
+    padding-left: 390px;
+    font-family: myFirstFont;
+    line-height: 25px;
+    letter-spacing: 1px; 
+}
+.parent4 h1{
+    color: #063684;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+.parent4 p{
+    padding-bottom: 50px;
+}
+#parent5 h1{
+    color: #063684;
+    font-family: myFirstFont;
+    padding-left: 580px;
+    margin-top: 100px;
+    font-size: 44px;
+
+    
+}
+.pics2{
+display: flex;
+justify-content:space-evenly;
+margin-top: 10px;
+
+
+}
+.final{
+    display: flex;
+    font-family: myFirstFont;
+    justify-content: space-evenly;
+    padding-bottom: 200px;
+}
+.footer{
+    height:180px;
+    width: auto;
+    background-color: #1f1f1f;
+    opacity: 85%;
+    text-align: center;
+}
+.footer p{
+    color: #89897c;
+    font-family: myFirstFont;
+   padding-top: 80px;
+}
